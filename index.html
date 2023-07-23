@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+    <link rel="shortcut icon" href="./youtube.png" type="image/x-icon">
+
+    <!-- Google Font Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+
+    <!-- Header Starts -->
+
+    <div class="header">
+        <div class="header__left">
+            <i id="menu" class="material-symbols-outlined menu__header">menu</i>
+            <img class="youtube__image" src="./assets/images/youtube logoo.png" alt="youtube logo">
+        </div>
+
+        <div class="header__search">
+            <form action="">
+                <input type="text" placeholder="Search">
+                <button><i class="material-symbols-outlined">search</i></button>
+            </form>
+        </div>
+
+        <div class="header__right">
+            <i class="material-symbols-outlined search-bar">search</i>
+            <i class="material-symbols-outlined icon__btn">more_vert</i>
+            <button class="icon__btn btn"><i class="material-symbols-outlined header__btn">account_circle</i> Sign in</button>
+        </div>
+    </div>
+    <!-- Header Ends -->
+
+    <!-- Main body Starts -->
+
+    <div class="mainbody">
+        <!-- Sidebar Starts -->
+        <div class="sidebar">
+            <div class="sidebar__categories">
+                <div class="sidebar__category">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </div>
+
+                <div class="sidebar__category">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </div>
+
+                <div class="sidebar__category">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </div>
+
+                <hr>
+
+                <div class="sidebar__category">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </div>
+
+                <div class="sidebar__category">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </div>
+
+                <div class="sidebar__category">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                </div>
+
+                <div class="sidebar__category">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </div>
+
+                <div class="sidebar__category">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </div>
+
+                <hr>
+
+            </div>
+        </div>
+        <!-- Sidebar Ends -->
+
+        <div class="videos">
+            <h1>Recommended</h1>
+            <div class="videos__container">
+                <!-- Single video starts -->
+                <div class="video">
+                    <div class="video__thumbnail">
+                        <img src="https://img.youtube.com/vi/PpXUTUXU7Qc/maxresdefault.jpg" alt="">
+                    </div>
+
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="./assets/images/photography.jpg" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>Top 5 programming languages to learn in 2021.</h3>
+                            <a href="">FutureCoders</a>
+                            <span>10M Views &#8901 3 Months Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single video Ends -->
+
+                 <!-- Single video starts -->
+                 <div class="video">
+                    <div class="video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/7R9AFtorvxQ/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIHBACGAYgATgB8AEB-AHOBYACgAqKAgwIABABGH8gNigTMA8=&rs=AOn4CLDYkILuCo1fanLgnf8udQ-1GqzPxA" alt="">
+                    </div>
+
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/EHXWhTZUKdGSyGyGMIcJZpbwv3XEU6Cm6OYXmEazqOVaBy8GRuv9799TWgCxh1oa62UFw819=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>The HYPOCRISY : A PEACEFUL WARNING LETTER TO THE HEADIES</h3>
+                            <a href="">EMINI-KABEX IKA</a>
+                            <span>279 views &#8901 20 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single video Ends -->
+
+                 <!-- Single video starts -->
+                 <div class="video">
+                    <div class="video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/2MeyQL0pHXs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBp8fWPGwHsz5FOPZsrW2MCbO6JkA" alt="">
+                    </div>
+
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/OCCIfP1S-UCUHrcZeUzRxtLYCx8LYd6ak1U9bfRxwRA_xIAedV-McBSR2iOQd_aYKUAW-fe0Vn0=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>Chelsea 4-3 Brighton | Extended Highlights | Chlesea USA Tour 2023 </h3>
+                            <a href="">Chelsea Football Club</a>
+                            <span>2M Views &#8901 11 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single video Ends -->
+
+                 <!-- Single video starts -->
+                 <div class="video">
+                    <div class="video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/mEwus49dyE4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpjPBkv5Wkd396zAATesG-z2Fmsw" alt="">
+                    </div>
+
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/U9x-_BMoXJBPf9RWEab_TEu2TX1o1plDjeY52_BQVshkLYDtiQkCo3MVZsmq5X0gf0cTvRkFig=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>EXTENDED HIGHLIGHTS | Yokohama 3-5 Man City</h3>
+                            <a href="">Man city</a>
+                            <span>207K Views &#8901 1 hour ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single video Ends -->
+
+                <!-- Single video starts -->
+                <div class="video">
+                    <div class="video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/iT9cEbh8VXA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTiU2JjGC-VCtvC5w0sDh4iQdJhQ" alt="">
+                    </div>
+
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/eeFrpUiryl9HEqebCzi6D0BjdvGV3bS43_QB79xdrlkhpLIEjNqJGwoD2ynXCfzWeTmfDsab=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>The Real Aki and Paw Paw Comedy Movie (By Popular Demand)</h3>
+                            <a href="">MOVIES WEB</a>
+                            <span>42M Views &#8901 4 years ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single video Ends -->
+
+                 <!-- Single video starts -->
+                 <div class="video">
+                    <div class="video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/qdxcH53cDuo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAue8nRB2nSPH-ajuw8Q7P3r-PPtA" alt="">
+                    </div>
+
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AOPolaQRz9EEgEYmn0QcTkKHSLKbTz2pUDR_znbh_Nvkcg=s88-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>Asake - Amapiano / Lonely AT The Top (Live Session)</h3>
+                            <a href="">ASAKE</a>
+                            <span>1.7M Views &#8901 2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single video Ends -->
+
+                 <!-- Single video starts -->
+                 <div class="video">
+                    <div class="video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/DOvcuqkii1k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLClS2VAWJKe8sdE0RXZbUAVRtAuHA" alt="">
+                    </div>
+
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/f0Y8eNzQwG_djANHSFVL6pyoNWpVDkgQZJEEpsYXmprpIOfJXlHs2enzi5P5_Glqu5HqOR1g=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>Yasuaki Kurata Best Action Fighting English movie</h3>
+                            <a href="">Cinema Autumn</a>
+                            <span>861K Views &#8901 2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single video Ends -->
+
+                 <!-- Single video starts -->
+                 <div class="video">
+                    <div class="video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/sOPxCA74iak/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3iqf4GjR7fYH86TkMmXAKKMOdVQ" alt="">
+                    </div>
+
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/GcebpV-mvXpwtdji42VA7Bf7wDo5xL6SA8bcFdhWap34mQyC9f2InKa-J07p38Jx7FFt0Y3Rsw=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>Orisa Movie Premiere with Odunlade Adekola, Femi Adebayo...</h3>
+                            <a href="">CityLife TV</a>
+                            <span>78K Views &#8901 5 days Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single video Ends -->
+
+                <!-- Single video starts -->
+                <div class="video">
+                    <div class="video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/AqupaSMQfI4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA8j1T2FGNLgQjI1WRd2snqZ-wHyg" alt="">
+                    </div>
+
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/aAO0wCISfEN_BBVXoVhpgkdsG3tVUfayC4hcQbOTnC_UpFUm6TR6xlVw-OLt2TpUVo4qT7Hu=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>Inside the most notorious hood in Lagos, Nigeria NG</h3>
+                            <a href="">Czech in effect</a>
+                            <span>246K views &#8901 1 Month ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single video Ends -->
+
+                 <!-- Single video starts -->
+                 <div class="video">
+                    <div class="video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/asKvPLmjxXY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQWFgeCMmh-TDAFBCMSCfeZXPygQ" alt="">
+                    </div>
+
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AOPolaSYIvTrgKFP_GYCt9wGKhBdX32Z41xmVDrrntzCYQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>The Underdogs: Swiped Mac | Apple at Work</h3>
+                            <a href="">Apple</a>
+                            <span>15M Views &#8901 4 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single video Ends -->
+
+                 <!-- Single video starts -->
+                 <div class="video">
+                    <div class="video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/fIJ4hy9n0v0/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIHBACGAYgATgB&rs=AOn4CLDJnGqlsLE6XOEfdJijXeqEH9N1iA" alt="">
+                    </div>
+
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AOPolaTSVlcTEgeJWx2T4L3j2ovLKqAEzPrDDMiG4BBQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>Episode 3: Pop the least attractive person's ballon or find a match with a man on THE HUNT GAMES</h3>
+                            <a href="">Nons_Miraj</a>
+                            <span>149K Views &#8901 23 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single video Ends -->
+
+                 <!-- Single video starts -->
+                 <div class="video">
+                    <div class="video__thumbnail">
+                        <img src="https://i.ytimg.com/vi/MI5a-1fnTaY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIHBACGAYgATgB&rs=AOn4CLCRuPxeiBpQmBh40ldlgPsrrXPH4g" alt="">
+                    </div>
+
+                    <div class="video__details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/W6bMBGqpPCw33RwwbAQZP2_C1gWX2I1HIYGxkuFgqvsMjlx5k6DraKcV0QwURQ4_-mr2-OGPIQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+
+                        <div class="title">
+                            <h3>PUBG custom match / Warlord rooms in session</h3>
+                            <a href="">Game Warlords</a>
+                            <span>446 Views &#8901 Streamed 1 day ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single video Ends -->
+                
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="./index.js"></script>
+
+    <!-- Main body ends -->
+
+
+    
+</body>
+</html>
